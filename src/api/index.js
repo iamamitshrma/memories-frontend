@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://memoriesamit.herokuapp.com'
 });
 
 //it weill check wheather user exist or not then down api run
